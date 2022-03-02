@@ -37,7 +37,7 @@ footer a {
   color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 

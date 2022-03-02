@@ -26,8 +26,22 @@
 <body>
 
     <header>
+
         <div class="wave">
-            <div class="container header-container">
+            <div class="container" style="margin-left: 20px; margin-top: 20px;">
+                <h3>Connect with Me</h3>
+                <h3 class="intro subtitle">
+                    <a href="https://www.linkedin.com/in/tony-wang-133b7b96/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/tonywang3571" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="mailto:<tonywang3571@gmail.com>" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </h3>
+                    <a class="btn btn-lg btn-resume" href="#">
+                        <i class="fas fa-download mr-2"></i>
+                        Resume
+                    </a>
+            </div>
+
+            <div class="container header-container" style="margin-top: -50px;">
                 <h1 class="name">Tony Wang</h1>
                 <h3 class="subtitle text-center">Solving problems one step at a time.</h3>
                 <!-- <img src="static/images/Tony.png" class="boy" alt="boy image" /> -->
@@ -120,7 +134,7 @@
 
                 <h3 class="card-title">More about Me</h3>
                 <p class="card-text">
-                    Self-taught html and Python for ~3 months prior to entering a Data Analytics bootcamp in Nov 2021.
+                    Self-taught html and Python for ~3 months prior to entering a Data Analytics program in Nov 2021.
                     I am enthusiastic about solving problems and always curious to ask myself "why does that work?"
                     I enjoy having a balance when working with data and the creative side of building an aesthetic webpage.
                 </p>
@@ -156,7 +170,7 @@
                     <p>
                         Create a visualization proposal to start a bike sharing service by using NYC bike share 
                         data to assist with our presention. We created different charts and heat maps using Tableau 
-                        to display overall usage and popularity of the NYC area bike share service.
+                        to display our analysis of usage and popularity of the NYC area bike share service.
                     </p>
                     <a href="https://github.com/tonywang3571/Bike_Sharing" class="btn"><i class="fab fa-github"></i> Code</a>
                     <a href="https://public.tableau.com/app/profile/tony.wang5909/viz/CitiBikes_Challenge_16456370603210/GenderandWeekdaybreakdownonBikeSharinginNYC" class="btn"><i class="fas fa-tv"></i> Check it out!</a>
@@ -189,8 +203,7 @@
                     <h2>UFOs</h2>
                     <p>
                         Dynamic webpage that filters through our dataset to change table data based on user's search
-                        criteria(s) input. NOTE: Improved webpage wtih "Go to top" button appearing with scrolling 
-                        down, and filters are non-case sensitive to data for the data table.
+                        criteria(s) input. Filters created with javascript and webpage created by using html/css/bootstrap.
                     </p>
                     <a href="https://github.com/tonywang3571/UFOs" class="btn"><i class="fab fa-github"></i> Code</a>
                     <a href="https://tonywang3571.github.io/UFOs/" class="btn"><i class="fas fa-tv"></i> Check it out!</a>
@@ -209,7 +222,7 @@
                         create and stylize the webpage.
                     </p>
                     <a href="https://github.com/tonywang3571/Mission_to_Mars" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="" class="btn"><i class="fas fa-tv"></i> Work in Progress</a>
+                    <a  class="btn"><i class="fas fa-tv"></i> Work in Progress</a>
 
                 </div>
             </div>
@@ -223,14 +236,14 @@
                     <h2>Pewlett-Hackard Employee Analysis</h2>
                     <p>
                         Using pgAdmin and SQL Databases to create queries and tables on an employee database to filter
-                        out employees retiring and an employee mentorship program.
+                        retiring employees and eligible employees for a mentorship program.
                     </p>
                     <a href="https://github.com/tonywang3571/Pewlett-Hackard-Analysis" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <!-- <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a> -->
+                    <a href="https://tonywang3571.github.io/Pewlett-Hackard-Analysis/" class="btn"><i class="fas fa-tv"></i> Check it out!</a>
                 </div>
             </div>
 
-            <div class="timeline-item">
+            <!-- <div class="timeline-item">
                 <div class="timeline-icon">
                     <i class="fas fa-car fa-align"></i>
                 </div>
@@ -242,9 +255,9 @@
                         for the data we created.
                     </p>
                     <a href="https://github.com/tonywang3571/PyBer_Analysis" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <!-- <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a> -->
+                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </div>
@@ -255,7 +268,7 @@
     <section class="container education-container">
         <h1 class="title">Education</h1>
         <article class="education-item">
-            <h3 class="subtitle">Washington University in St. Louis - Data Analytics Bootcamp</h3>
+            <h3 class="subtitle">Washington University in St. Louis - Data Analytics Certification</h3>
             <span class="text-muted">Data Analytics Certification | Nov 2021 - May 2022</span>
         </article>
         <hr />
@@ -278,12 +291,12 @@
             <h1 class="title">I'm available for work.</h1>
             <h3 class="subtitle">Actively contributing to new projects and seeking a full-time role in a fast-paced,
                 agile environment. Get in touch!</h3>
-        </div>
-        <div class="text-center mt-4">
-            <a class="btn btn-lg btn-resume" href="#">
-                <i class="fas fa-download mr-2"></i>
-                Resume
-            </a>
+            <div class="text-center mt-4">
+                <a class="btn btn-lg btn-resume" href="#">
+                    <i class="fas fa-download mr-2"></i>
+                    Resume
+                </a>
+            </div>
         </div>
     </section>
 
@@ -298,15 +311,13 @@
             </h3>
         </div>
     </section>
-
+    
     <footer>
         <div class="container">
             Tony Wang &copy; 2022 |
 
         </div>
     </footer>
-
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
